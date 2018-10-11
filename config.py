@@ -12,8 +12,8 @@ class Config(object):
     # данных, например cookies.
     SECRET_KEY = 'jyaygfkjdgfsdkjfgasjcvcsgJv'
     # URI используемая для подключения к базе данных
-    SQLALCHEMY_DATABASE_URI = os.environ['DATABASE_URL']
-    SQLALCHEMY_TRACK_MODIFICATIONS = False
+    #SQLALCHEMY_DATABASE_URI = os.environ['DATABASE_URL']
+    #SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 
 class ProductionConfig(Config):
