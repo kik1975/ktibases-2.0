@@ -1,0 +1,4 @@
+flask-security
+flask-sqlalchemy
+psycopg2
+flask-script
